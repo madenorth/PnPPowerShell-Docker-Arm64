@@ -2,10 +2,10 @@
 
 ### Create the image from the Dockerfile
 
-docker build -t pnppowershellarm64:v1 -f Dockerfile .
+docker build -t pnppowershellarm64:v2 -f Dockerfile .
 
 ### Create and run container
-docker run --name PnPPowerShell-Arm64 --volume=/Users/<username>>/Projects:/data -it pnppowershellarm64:v1
+docker run --name PnPPowerShell-Arm64 --volume=/Users/<username>/Projects:/data -it pnppowershellarm64:v2
 
 
 
